@@ -44,3 +44,8 @@ void Print1DArr(string[] arr)
     }
     Console.WriteLine(arr[arr.Length - 1] + "]");
 }
+
+string[] filteredArray = FilteredArray(originalArray);
+
+Print1DArr(originalArray);
+Print1DArr(filteredArray);
